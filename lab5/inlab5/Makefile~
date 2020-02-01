@@ -1,0 +1,16 @@
+#Josh Buckley   jgb4ub   Lab Section: 102
+# 10/13/2019     Makefile-pizza
+
+CXX=clang++ 
+#DEBUG=-Wall -g
+CXXFLAGS=-Wall -02 -std=c++11
+
+
+
+.SUFFIXES: .o .cpp
+
+
+
+clean:
+	-rm -f *. output *~
+
