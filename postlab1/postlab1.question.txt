@@ -1,0 +1,2 @@
+Why does List<char> list2 not create a pointer to a list of characters? is it
+because a specific list constructor was not used as in "new List<int>();"?
