@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+const int intVal = 2;
+
+int addOne(int value);
+int subOne(int value);
+
+
+int main(){
+  int a = addOne(intVal);
+  int b = subOne(intVal);
+}
